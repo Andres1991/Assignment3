@@ -8,14 +8,14 @@ body {
   margin: 0;
   font-size: 14px;
   font-family: sans-serif;
-  color: #555;
-  background: orange; }
+  color: black;
+  background: white; }
 
 /* line 18, /Users/Ders/Desktop/spa-boilerplate/src/assets/styles/index.sass */
 a {
   text-decoration: none;
   display: inline-block;
-  color: #555; }
+  color: black; }
 
 /* line 23, /Users/Ders/Desktop/spa-boilerplate/src/assets/styles/index.sass */
 .wrapper {
@@ -30,36 +30,63 @@ a {
 
 /* line 34, /Users/Ders/Desktop/spa-boilerplate/src/assets/styles/index.sass */
 .header {
-  padding: 5px;
-  border-bottom: 10px solid #efefef; }
+  padding: 15px;
+  border-bottom: 15px solid #D2D2D2; }
 
-/* line 39, /Users/Ders/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+/* line 42, /Users/Ders/Desktop/spa-boilerplate/src/assets/styles/index.sass */
 .nav {
   margin: 0;
   padding: 0;
   font-size: 20px;
   text-align: right; }
-  /* line 46, /Users/Ders/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+  /* line 49, /Users/Ders/Desktop/spa-boilerplate/src/assets/styles/index.sass */
   .nav li {
     margin: 0;
     padding: 0;
     display: inline-block;
     list-style: none; }
-    /* line 52, /Users/Ders/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+    /* line 55, /Users/Ders/Desktop/spa-boilerplate/src/assets/styles/index.sass */
     .nav li a {
       padding: 5px 10px; }
 
-/* line 56, /Users/Ders/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+/* line 59, /Users/Ders/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+.middle {
+  text-align: center; }
+
+/* line 62, /Users/Ders/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+.logo {
+  margin-left: 500px; }
+
+/* line 66, /Users/Ders/Desktop/spa-boilerplate/src/assets/styles/index.sass */
 .main {
   padding: 20px;
   border-bottom: 1px solid #efefef; }
 
-/* line 61, /Users/Ders/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+/* line 71, /Users/Ders/Desktop/spa-boilerplate/src/assets/styles/index.sass */
 .footer {
   padding: 20px;
   border-top: 10px solid #efefef; }
-  /* line 64, /Users/Ders/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+  /* line 74, /Users/Ders/Desktop/spa-boilerplate/src/assets/styles/index.sass */
   .footer p {
     margin: 0;
     padding: 0;
     font-size: 12px; }
+
+/* line 85, /Users/Ders/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+.aboutme {
+  font-size: 18px;
+  padding: 0.5px;
+  width: 650px;
+  margin-left: 250px;
+  margin-top: -40px;
+  color: white; }
+
+/* line 93, /Users/Ders/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+.banner {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+/* line 101, /Users/Ders/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+.gallery {
+  padding: 5px; }
