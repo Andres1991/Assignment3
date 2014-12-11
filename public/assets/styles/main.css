@@ -17,41 +17,48 @@ a {
   display: inline-block;
   color: #555; }
 
-/* line 24, /Users/Ders/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+/* line 23, /Users/Ders/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+.wrapper {
+  max-width: 1160; }
+
+/* line 27, /Users/Ders/Desktop/spa-boilerplate/src/assets/styles/index.sass */
 .header, .main, .footer {
   width: 100%;
   display: block;
   clear: both;
   float: left; }
 
-/* line 31, /Users/Ders/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+/* line 34, /Users/Ders/Desktop/spa-boilerplate/src/assets/styles/index.sass */
 .header {
-  padding: 20px;
+  padding: 5px;
   border-bottom: 10px solid #efefef; }
 
-/* line 36, /Users/Ders/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+/* line 39, /Users/Ders/Desktop/spa-boilerplate/src/assets/styles/index.sass */
 .nav {
-  margin-right: 500px;
-  padding: 0; }
-  /* line 40, /Users/Ders/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  text-align: right; }
+  /* line 46, /Users/Ders/Desktop/spa-boilerplate/src/assets/styles/index.sass */
   .nav li {
     margin: 0;
     padding: 0;
     display: inline-block;
     list-style: none; }
-    /* line 46, /Users/Ders/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+    /* line 52, /Users/Ders/Desktop/spa-boilerplate/src/assets/styles/index.sass */
     .nav li a {
       padding: 5px 10px; }
 
-/* line 50, /Users/Ders/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+/* line 56, /Users/Ders/Desktop/spa-boilerplate/src/assets/styles/index.sass */
 .main {
   padding: 20px;
   border-bottom: 1px solid #efefef; }
 
-/* line 55, /Users/Ders/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+/* line 61, /Users/Ders/Desktop/spa-boilerplate/src/assets/styles/index.sass */
 .footer {
-  padding: 20px; }
-  /* line 58, /Users/Ders/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+  padding: 20px;
+  border-top: 10px solid #efefef; }
+  /* line 64, /Users/Ders/Desktop/spa-boilerplate/src/assets/styles/index.sass */
   .footer p {
     margin: 0;
     padding: 0;
